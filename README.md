@@ -66,7 +66,7 @@ Solution:
 - ROS 2 middleware delivers trajectories to an ABB ROS 2 driver.
 - The driver streams compatible commands to the RobotStudio Virtual Controller for smooth interpolation and synchronized joint motion.
 ## Technical Challenges:
-- While the kinematic calculations and RAPID motion programs are fully implemented and verified, the ROS 2 bridge—intended to automate trajectory transfer via the ROS 2 middleware—is currently under development. At present, trajectories are manually synchronized within the RobotStudio Virtual Controller.
+- While the kinematic calculations and RAPID motion programs are fully implemented and verified, the ROS 2 bridge intended to automate trajectory transfer via the ROS 2 middleware is currently under development. At present, trajectories are manually synchronized within the RobotStudio Virtual Controller.
 
 ## Demo Video
 ### Simulation of CRB 15000 in Simulink:
